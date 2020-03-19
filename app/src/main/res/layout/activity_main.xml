@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Sign in"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_margin="?actionBarSize"/>
+
+        <EditText
+            android:id="@+id/emailcustomerlogin"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="Email"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#000"
+            android:textColorHint="#000"
+            android:textSize="17sp" />
+
+        <EditText
+            android:id="@+id/passwordcustomerlogin"
+            android:layout_height="?actionBarSize"
+            android:layout_width="match_parent"
+            android:textColor="#000" android:textSize="17sp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/colorAccent"
+            android:hint="Password" android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:textColorHint="#000"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="sign in"
+            android:textColor="#fff"
+            android:backgroundTint="@color/colorAccent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+        <TextView
+            android:id="@+id/registerlink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Register new account"
+            android:textColor="#000" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

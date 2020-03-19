@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00C853</color>
+    <color name="colorPrimaryDark">#388E3C</color>
+    <color name="colorAccent">#D3392D</color>
+    <color name="backgroundcolor">#fcfcfc</color>
+
+    <color name="lightgray">#ededed</color>
+
+    <color name="deeppurple">#7c4dff</color>
+
+    <color name="yello">#ffb300</color>
+
+    <color name="green">#00bfa5</color>
+
+
+    <color name="darkblue">#23283a</color>
+
+    <color name="testcolorblue">#152b38</color>
+
+    <color name="pink">#fe104d</color>
+
+    <color name="black_overlay">#66070606</color>
+
+
+    <!--colors for modern ui-->
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#21A349</color>
+    <color name="loginBkColor">#f0f0f0</color>
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+</resources>
